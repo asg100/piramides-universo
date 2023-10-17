@@ -1,0 +1,128 @@
+---
+title: "De pirámides a la forma del Universo"
+subtitle: "Teorema de Pitágoras"
+author: "Arturo Sánchez González"
+institute: <span style="color:#D40828"> Scotiabank México
+date: "18 de octubre de 2023"
+output:
+  xaringan::moon_reader:
+    #css: xaringan-themer.css
+    css: [default, chocolate-fonts, ucolors.css, metropolis]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+# to know the themes available use
+# names(xaringan:::list_css())
+# Para saber otras posibilidades con xaeringanthemer vea
+# https://www.garrickadenbuie.com/blog/xaringanthemer-v0-3-0/
+#    includes:
+#      after_body: insert-logo.html
+#esto fue tomado de https://www.garrickadenbuie.com/blog/xaringan-tip-logo-all-slides/
+---
+class: inverse, center, middle
+
+```{r xaringan-opts, echo=FALSE}
+library(xaringanExtra)
+xaringanExtra::use_editable(expires = 1)
+xaringanExtra::use_scribble()
+#xaringanExtra::use_share_again()
+#xaringanExtra::style_share_again(
+#  share_buttons = c("twitter")
+#)
+```
+
+<span style="font-size:35px;color:white"> Un poco de historia
+
+<span style="font-size:30px;color:white"> ¿Quiénes desarrollaron el Teorema de Pitágoras?
+---
+# Un momento...
+
+## ¿No fue Pitágoras?
+
+.pull-left[
+```{r out.width = '110%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("Plimpton_322.jpg")
+```
+La tableta Plimpton 322. Tomada de [Babylonian tablet listing pythagorean triples](https://es.wikipedia.org/wiki/Plimpton_322#/media/Archivo:Plimpton_322.jpg).
+]
+
+---
+# Pirámides
+
+indicar que se usaba el triángulo $(3,4,5)$
+
+---
+# Los pitagóricos
+
+La versión del teorema en términos de áreas
+Explicar que ellos pensaban en términos de áreas, no de álgebra
+
+---
+# Políticos y matemáticas
+ Mencionar a Garfield (poner a Garfield el gato) y a Napoleón
+
+---
+class: inverse, center
+
+</br>
+
+</br>
+
+</br>
+
+<span style="font-size:35px;color:white"> ¿Por qué es importante el Teorema de Pitágoras?
+
+---
+# Escalas
+
+Indicar que "por eso hay pirámides"
+---
+# Trigonometría
+
+Referir a la primera tabla
+
+---
+# Versiones curiosas del Teorema de Pitágoras
+
+Poner el ejercicio del Purcell: empezar con 
+
+---
+# Paralelas
+
+Dejar esto al final para usarlo de inmediato: explicar el quinto postulado
+
+---
+class: inverse, center
+
+</br>
+
+</br>
+
+</br>
+
+<span style="font-size:35px;color:white"> ¿Y la forma del Universo?
+
+---
+# Empecemos más cerca: este salón
+
+Sugerir que el mundo es plano
+
+---
+# Vamos más lejos: nuestro Planeta
+
+Poner un dibujo de un triángulo con 3 ángulos rectos
+
+---
+# Ahora, en pequeño: unas papitas
+
+Hablar de geometría hiperbólica: mencionar que no hay triángulos de 180°
+Hablar de los problemas si el mundo fuera así
+
+---
+# ¿Qué sabemos?
+
+Mencionar a Gauss y sus mediciones
+Hablar de mediciones más recientes
+---
+
