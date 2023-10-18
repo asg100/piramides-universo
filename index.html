@@ -8,7 +8,7 @@
     <link href="index_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="index_files/remark-css-0.0.1/chocolate-fonts.css" rel="stylesheet" />
     <link href="index_files/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xd410215a33e411985f862e88f7d8015","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x6ec999a7e884f59876964ddeb70364a","expires":1}</script>
     <script src="index_files/himalaya-1.1.0/himalaya.js"></script>
     <script src="index_files/js-cookie-3.0.0/js.cookie.js"></script>
     <link href="index_files/editable-0.2.6/editable.css" rel="stylesheet" />
@@ -246,12 +246,116 @@ class: inverse, center
 ---
 # Versiones curiosas del Teorema de Pitágoras
 
-Poner el ejercicio del Purcell: empezar con 
+* &lt;span style="font-size:20px"&gt; ¿Y si en lugar de cuadrados ponemos otrs figuras?, ¿se mantiene alguna relación entre las áreas? 
+
+* &lt;span style="font-size:20px"&gt; Para que el problema sea sencillo, consideremos solo figuras **regulares**.
+
+.pull-left[
+
+&lt;img src="areas_triangulo.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;span style="font-size:20px"&gt; Tenemos que el área de un triángulo equilátero de lado `\(\color{darkred}{l}\)` es
+
+&lt;span style="font-size:20px"&gt; $$
+\text{Área(triángulo)} = \color{darkrblue}{\frac{\sqrt{3}}{4}}\color{darkred}{l}^2
+$$
+&lt;span style="font-size:20px"&gt; Entonces, si los **catetos** miden `\(\color{red}{a}\)` y `\(\color{blue}{b}\)` y la hipotenusa mide `\(\color{darkgreen}{c}\)` tenemos que
+
+&lt;span style="font-size:20px"&gt; $$
+`\begin{aligned}
+\frac{\sqrt{3}}{4} \color{red}{a}^2 + \frac{\sqrt{3}}{4} \color{blue}{b}^2 &amp; = \frac{\sqrt{3}}{4} \left( \color{red}{a}^2 + \color{blue}{b}^2 \right) \\
+&amp; = \frac{\sqrt{3}}{4} \color{darkgreen}{c}^2
+\end{aligned}`
+$$
+]
+
 
 ---
-# Paralelas
+# ¿Y sí ponemos un círculo?
 
-Dejar esto al final para usarlo de inmediato: explicar el quinto postulado
+.pull-left[
+
+&lt;img src="areas_circulo.png" width="110%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+&lt;/br&gt;
+&lt;/br&gt;
+
+&lt;span style="font-size:20px"&gt; El área de medío círculo de radio `\(\color{darkblue}{r}\)` es 
+
+&lt;span style="font-size:20px"&gt; $$
+\text{Área(semicírculo)} = \pi\color{darkblue}{r}^2
+$$
+&lt;span style="font-size:20px"&gt; Entonces, si los **catetos** miden `\(\color{red}{a}\)` y `\(\color{blue}{b}\)` y la hipotenusa mide `\(\color{darkgreen}{c}\)` tenemos que
+
+&lt;span style="font-size:20px"&gt; $$
+`\begin{aligned}
+\pi \color{red}{a}^2 + \pi \color{blue}{b}^2 &amp; = \pi \left( \color{red}{a}^2 + \color{blue}{b}^2 \right) \\
+&amp; = \pi \color{darkgreen}{c}^2
+\end{aligned}`
+$$
+
+]
+---
+# ¿Puede ser un `\(n\)`-ágono?
+
+.pull-left[
+
+&lt;img src="n-agon.jpg" width="110%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;span style="font-size:20px"&gt; Sabemos que el área de un polígono regular de `\(n\)` lados es
+
+&lt;span style="font-size:20px"&gt; $$
+\text{Área(polígono)} = \frac{P\cdot R}{2}
+$$
+donde `\(R\)` es el apotema y `\(P=n\cdot a\)` el perímetro cuando cada lado mide `\(\color{red}{a}\)`.
+
+
+&lt;span style="font-size:20px"&gt;  ¿Hay alguna fórmula del área de un `\(n\)`-ágono regular que dependa del lado?
+
+
+&lt;/br&gt;
+&lt;span style="font-size:20px"&gt; $$
+\text{Área(polígono)} = \color{darkred}{\frac{n}{4\tan\left(\frac{\pi}{n}\right)}} \color{red}{a}^2 
+$$
+]
+
+---
+# ¿Y si no es regular? (1/2)
+
+&lt;img src="areas_funciones2.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+&lt;span style="font-size:20px"&gt;  En este caso, consideramos &lt;span style="color:darkred"&gt; áreas de regiones semejantes &lt;/span&gt; construidas sobre los catetos y la hipotenusa de un triángulo rectángulo.
+
+---
+# ¿Y si no es regular? (2/2)
+
+.pull-left[
+&lt;img src="areas_funciones3.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;span style="font-size:20px"&gt; La semejanza de áreas significa considerar funciones
+
+&lt;span style="font-size:20px"&gt; $$
+\color{red}{g(x)} = \frac{a}{c}\color{darkgreen}{f}\left(\frac{c}{a}x\right) \,\,\,\text{ y }\,\,\, \color{blue}{h(x)} = \frac{b}{c}\color{darkgreen}{f}\left(\frac{c}{b}x\right)
+$$
+&lt;span style="font-size:20px"&gt; ¿Cómo se calcula el área bajo gráficas de funciones? &lt;span style="color:darkred"&gt; Con integrales. &lt;/span&gt;
+
+
+&lt;span style="font-size:20px"&gt; Tenemos que
+
+&lt;span style="font-size:20px"&gt; $$
+\int_{0}^{a} \color{red}{g}(x) dx + \int_{0}^{b} \color{blue}{h}(x) dx = \int_{0}^{c} \color{darkgreen}{f}(x) dx
+$$
+]
 
 ---
 class: inverse, center
@@ -265,6 +369,13 @@ class: inverse, center
 &lt;span style="font-size:35px;color:white"&gt; ¿Y la forma del Universo?
 
 ---
+# Paralelas
+
+Dejar esto al final para usarlo de inmediato: explicar el quinto postulado
+
+---
+
+
 # Empecemos más cerca: este salón
 
 Sugerir que el mundo es plano
