@@ -301,20 +301,21 @@ knitr::include_graphics("areas_circulo.png")
 
 .pull-right[
 
-</br>
-</br>
 
 <span style="font-size:20px"> El área de medío círculo de radio $\color{darkblue}{r}$ es 
 
 <span style="font-size:20px"> $$
-\text{Área(semicírculo)} = \pi\color{darkblue}{r}^2
+\text{Área(semicírculo)} = \frac{\pi}{2}\color{darkblue}{r}^2
 $$
-<span style="font-size:20px"> Entonces, si los **catetos** miden $\color{red}{a}$ y $\color{blue}{b}$ y la hipotenusa mide $\color{darkgreen}{c}$ tenemos que
+<span style="font-size:20px"> Entonces, si los **catetos** miden $\color{red}{a}$ y $\color{blue}{b}$ y la hipotenusa mide $\color{darkgreen}{c}$ tenemos que los respectivos radios son $\frac{\color{red}{a}}{2}$, $\frac{\color{blue}{b}}{2}$ y $\frac{\color{darkgreen}{c}}{2}$, por lo cual:
 
 <span style="font-size:20px"> $$
 \begin{aligned}
-\pi \color{red}{a}^2 + \pi \color{blue}{b}^2 & = \pi \left( \color{red}{a}^2 + \color{blue}{b}^2 \right) \\
-& = \pi \color{darkgreen}{c}^2
+\frac{\pi}{2} \left(\frac{\color{red}{a}}{2}\right)^2 + \frac{\pi}{2} \left(\frac{\color{blue}{b}}{2}\right)^2 & = \frac{\pi}{2} \left( \frac{\color{red}{a}^2}{4} + \frac{\color{blue}{b}^2}{4} \right) \\
+& = \frac{\pi}{8} \left( \color{red}{a}^2 + \color{blue}{b}^2\right) \\
+& = \frac{\pi}{8} \color{darkgreen}{c}^2 \\
+& = \frac{\pi}{2} \left(\frac{\color{darkgreen}{c}^2}{4}\right) \\
+& = \frac{\pi}{2} \left(\frac{\color{darkgreen}{c}}{2}\right)^2
 \end{aligned}
 $$
 
