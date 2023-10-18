@@ -8,7 +8,7 @@
     <link href="index_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="index_files/remark-css-0.0.1/chocolate-fonts.css" rel="stylesheet" />
     <link href="index_files/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x5b8317404fe4bcf9a0f64b44b481a7f","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xd410215a33e411985f862e88f7d8015","expires":1}</script>
     <script src="index_files/himalaya-1.1.0/himalaya.js"></script>
     <script src="index_files/js-cookie-3.0.0/js.cookie.js"></script>
     <link href="index_files/editable-0.2.6/editable.css" rel="stylesheet" />
@@ -39,30 +39,153 @@ class: inverse, center, middle
 
 &lt;span style="font-size:30px;color:white"&gt; ¿Quiénes desarrollaron el Teorema de Pitágoras?
 ---
-# Un momento...
-
-## ¿No fue Pitágoras?
+# Un momento... ¿no fue Pitágoras?
 
 .pull-left[
+
+&lt;/br&gt;
+
 &lt;img src="Plimpton_322.jpg" width="110%" style="display: block; margin: auto;" /&gt;
-La tableta Plimpton 322. Tomada de [Babylonian tablet listing pythagorean triples](https://es.wikipedia.org/wiki/Plimpton_322#/media/Archivo:Plimpton_322.jpg).
+
+&lt;small&gt; Tomada de [Babylonian tablet listing pythagorean triples](https://es.wikipedia.org/wiki/Plimpton_322#/media/Archivo:Plimpton_322.jpg).
+
+]
+
+.pull-right[
+
+* La tablilla **Plimpton 322** fue escrita entre 1822 y 1762 a. C.
+
+* Se descubrió en Irak (donde se desarrolló la civilación babilonia).
+
+* Distintos análisis sugieren que Plimpton 322 contiene **ternas pitagóricas**.
+
+* La tableta fue descubierta por [Edgar James Banks](https://en.wikipedia.org/wiki/Edgar_James_Banks). En él se inspiraron para Indiana Jones.
+
+&lt;img src="Edgar_James_Banks.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+
+]
+---
+# ¿Ternas pitagóricas?
+
+.pull-left[
+### ¿Qué son?
+
+Es un arreglo ordenado de 3 números enteros positivos `\(\color{red}{a}\)`, `\(\color{blue}{b}\)` y `\(\color{darkgreen}{c}\)` tales que
+
+$$
+  \color{red}{a}^2 + \color{blue}{b}^2 = \color{darkgreen}{c}^2 
+$$
+
+Notar que se trata de un problema "algebraico", por eso no hay dibujos (todavía).
+
+
+### Ejemplos
+
+* La terna `\((\color{red}{3},\ \color{blue}{4},\ \color{darkgreen}{5})\)` es pitagórica porque
+
+$$
+\color{red}{3}^2 + \color{blue}{4}^2  = 9 + 16 = 25 = \color{darkgreen}{5}^2
+$$
+* La terna `\((\color{red}{5},\ \color{blue}{12},\ \color{darkgreen}{13})\)` también es pitagórica.
+]
+
+
+.pull-right[
+### Propiedad importante
+
+Si multiplicamos cada número de una terna pitagórica por un mismo entero positivo, obtenemos otra terna pitagórica.
+
+
+### Ejemplo
+
+* Empezamos con `\((\color{red}{3},\ \color{blue}{4},\ \color{darkgreen}{5})\)`.
+* Multiplicamos cada número de la terna por `\(\textbf{4}\)`.
+* Obtenemos `\((\color{darkred}{12},\ \color{darkblue}{16},\ \color{darkgreen}{20})\)`, y notamos que
+
+$$
+\color{darkred}{12}^2 + \color{darkblue}{16}^2 = 144 + 256 = 400 = \color{darkgreen}{20}^2
+$$
 ]
 
 ---
-# Pirámides
+# ¿Cómo lo usaban?
 
-indicar que se usaba el triángulo `\((3,4,5)\)`
+.pull-left[
+
+&lt;/br&gt;
+&lt;/br&gt;
+
+Se sugiere que los egipcios unían 12 segmentos de soga de la misma longitud.
+
+Entonces estiraban `\(\color{darkgreen}{5}\)` de dichos segmentos consecutivos.
+
+Luego tiraban del lazo para formar un triángulo `\((\color{red}{3},\ \color{blue}{4},\ \color{darkgreen}{5})\)` que es **triángulo rectángulo**.
+
+]
+
+.pull-right[
+
+&lt;/br&gt;
+
+&lt;img src="egipcios.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;small&gt; Tomada de [Teorema de Pitágoras](https://www.jica.go.jp/Resource/project/elsalvador/004/materials/ku57pq00003uf5za-att/text_JS3_06.pdf).
+]
 
 ---
-# Los pitagóricos
+# ¿Todavía se usa?
 
-La versión del teorema en términos de áreas
-Explicar que ellos pensaban en términos de áreas, no de álgebra
+&lt;/br&gt;
+
+
+&lt;img src="trazado-de-escuadra.jpg" width="110%" style="display: block; margin: auto;" /&gt;
+
+&lt;small&gt; Tomada de [Consejo de construcción al trazar a escuadra](https://www.construyendoseguro.com/consejo-de-construccion-al-trazar-a-escuadra/).
 
 ---
-# Políticos y matemáticas
- Mencionar a Garfield (poner a Garfield el gato) y a Napoleón
+# Ahora, ¿áreas?
 
+.pull-left[
+
+Los griegos no sabían álgebra, entonces, ¿que decía el **Teorema de Pitágoras**?
+
+&lt;/br&gt;
+
+&lt;span style="font-size:32px"&gt; El &lt;span style="color:darkgreen"&gt;área del cuadrado&lt;/span&gt; construido sobre el lado opuesto al ángulo recto es igual a la &lt;span style="color:darkred"&gt;suma de las áreas de los cuadrados&lt;/span&gt; construidos sobre los lados que comprenden el ángulo recto.
+]
+
+.pull-right[
+
+&lt;/br&gt;
+
+&lt;img src="teorema_pitagoras.png" width="500%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+# Mejor agregamos álgebra
+
+.pull-left[
+
+&lt;span style="font-size:25px"&gt; Como se observa, el resultado geométrico es complicado. Por ello, si consideramos que `\(\color{red}{a}\)` y `\(\color{blue}{b}\)` son las longitudes de los **catetos** de un triángulo rectángulo y `\(\color{darkgreen}{c}\)` es la longitud de la **hipotenusa**, entonces
+
+&lt;span style="font-size:25px"&gt; $$
+  \color{red}{a}^2 + \color{blue}{b}^2 = \color{darkgreen}{c}^2 
+$$
+
+&lt;/br&gt;
+¿Qué representa cada uno de esos cuadrados?
+]
+
+
+.pull-right[
+
+&lt;/br&gt;
+
+&lt;img src="teo_pit_alg.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+Tomada de [Enciclopedia Humanidades](https://humanidades.com/teorema-pitagoras/).
+]
 ---
 class: inverse, center
 
@@ -75,13 +198,50 @@ class: inverse, center
 &lt;span style="font-size:35px;color:white"&gt; ¿Por qué es importante el Teorema de Pitágoras?
 
 ---
-# Escalas
+# Alineación de terrenos y escalas
 
-Indicar que "por eso hay pirámides"
+.pull-left[
+
+* &lt;span style="font-size:20px"&gt; Cada año, el río Nilo se desbordaba, entonces tenían que realinear los terrenos: usaban el triángulo `\((\color{red}{3},\ \color{blue}{4},\ \color{darkgreen}{5})\)`.
+
+&lt;/br&gt;
+
+&lt;img src="agrimensores.jpeg" width="120%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+.pull-right[
+
+* &lt;span style="font-size:20px"&gt; EL Teorema de Pitágoras es equivalente a la semejanza de triángulos, por lo cual se pueden hacer modelos a escala: esto se usa en el diseño de cualquier edificio.
+
+&lt;/br&gt;
+
+&lt;img src="piramides.jpeg" width="120%" style="display: block; margin: auto;" /&gt;
+]
 ---
 # Trigonometría
 
-Referir a la primera tabla
+.pull-left[
+
+&lt;/br&gt;
+* &lt;span style="font-size:20px"&gt; Para algunos historiadores, Plimpton 322 es una de las primeras tablas trigonométricas.
+
+
+* &lt;span style="font-size:20px"&gt; Las funciones trigonométricas se pueden definir a partir de un triángulo rectángulo: ¡¡ las identidades que conocemos se obtienen a partir del Teorema de Pitágoras !!
+
+
+* &lt;span style="font-size:20px"&gt; También las leyes de senos y cosenos se deducen del Teorema de Pitágoras.
+]
+
+
+.pull-right[
+
+&lt;/br&gt;
+
+&lt;/br&gt;
+&lt;img src="razones-trigonometricas.jpg" width="140%" style="display: block; margin: auto;" /&gt;
+]
 
 ---
 # Versiones curiosas del Teorema de Pitágoras
