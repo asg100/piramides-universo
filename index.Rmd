@@ -374,12 +374,11 @@ knitr::include_graphics("areas_funciones3.png")
 $$
 <span style="font-size:20px"> ¿Cómo se calcula el área bajo gráficas de funciones? <span style="color:darkred"> Con integrales. </span>
 
+</br>
 
 <span style="font-size:20px"> Tenemos que
 
-<span style="font-size:20px"> $$
-\int_{0}^{a} \color{red}{g}(x) dx + \int_{0}^{b} \color{blue}{h}(x) dx = \int_{0}^{c} \color{darkgreen}{f}(x) dx
-$$
+<span style="font-size:20px"> $$\int_{0}^{a} \color{red}{g}(x) dx + \int_{0}^{b} \color{blue}{h}(x) dx = \int_{0}^{c} \color{darkgreen}{f}(x) dx$$
 ]
 
 ---
@@ -391,35 +390,73 @@ class: inverse, center
 
 </br>
 
-<span style="font-size:35px;color:white"> ¿Y la forma del Universo?
+<span style="font-size:40px;color:white"> ¿Y la forma del Universo?
 
 ---
-# Paralelas
+# El quinto postulado
 
-Dejar esto al final para usarlo de inmediato: explicar el quinto postulado
+```{r out.width = '90%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("transversal3_0.png")
+```
 
 ---
+# Empecemos cerca: este salón
 
-
-# Empecemos más cerca: este salón
-
-Sugerir que el mundo es plano
+```{r out.width = '80%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("salon.png")
+```
 
 ---
 # Vamos más lejos: nuestro Planeta
 
-Poner un dibujo de un triángulo con 3 ángulos rectos
+```{r out.width = '70%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("Triangle_trirectangle.png")
+```
+
+---
+# ¿Infinitas paralelas?
+```{r out.width = '70%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("rectas_disco_Poincare.jpg")
+```
 
 ---
 # Ahora, en pequeño: unas papitas
 
-Hablar de geometría hiperbólica: mencionar que no hay triángulos de 180°
-Hablar de los problemas si el mundo fuera así
+```{r out.width = '90%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("papita.png")
+```
 
 ---
 # ¿Qué sabemos?
 
-Mencionar a Gauss y sus mediciones
-Hablar de mediciones más recientes
----
+.pull-left[
+</br>
 
+```{r out.width = '110%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("gauss.jpeg")
+```
+
+<small> Fotograma de la película **Midiendo el numdo**. Se observa a Gauss midiendo triángulos junto a su esposa.
+]
+
+.pull-right[
+
+</br>
+
+</br>
+
+* <span style="font-size:20px"> Gauss fue un pionero en la idea de medir triángulos.
+
+</br>
+* <span style="font-size:20px"> Se han realizado mediciones con mayor precisión, incluso entre estrellas, pero los resultados no son concluyentes.
+]
+---
+class: inverse, center
+
+</br>
+
+</br>
+
+</br>
+
+<span style="font-size:40px;color:white"> ¡Gracias!
