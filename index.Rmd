@@ -3,7 +3,7 @@ title: "De pirámides a la forma del Universo"
 subtitle: "Teorema de Pitágoras"
 author: "Arturo Sánchez González"
 institute: <span style="color:#D40828"> Scotiabank México
-date: "18 de octubre de 2023"
+date: "25 de noviembre de 2025"
 output:
   xaringan::moon_reader:
     #css: xaringan-themer.css
