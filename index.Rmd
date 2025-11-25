@@ -401,6 +401,15 @@ knitr::include_graphics("transversal3_0.png")
 ```
 
 ---
+# Ángulos interiores de un triángulo
+
+
+```{r out.width = '150%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("suma_interiores.png")
+```
+Tomada de [Demostración suma de ángulos interiores de un triángulo](https://matematicalatex.blogspot.com/2017/09/demostracion-suma-de-angulos-interiores.html).
+
+---
 # Empecemos cerca: este salón
 
 ```{r out.width = '80%', echo=FALSE, fig.align='center'}
@@ -423,8 +432,11 @@ knitr::include_graphics("rectas_disco_Poincare.jpg")
 ---
 # Ahora, en pequeño: unas papitas
 
-```{r out.width = '90%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("papita.png")
+</br>
+
+```{r out.width = '100%', echo=FALSE, fig.align='center'}
+#knitr::include_graphics("papita.png")
+knitr::include_graphics("papita2.jpg")
 ```
 
 ---
@@ -451,6 +463,16 @@ knitr::include_graphics("gauss.jpeg")
 </br>
 * <span style="font-size:20px"> Se han realizado mediciones con mayor precisión, incluso entre estrellas, pero los resultados no son concluyentes.
 ]
+
+---
+
+</br>
+```{r out.width = '110%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("universe.png")
+```
+
+Captura tomada de [How One Line in the Oldest Math Text Hinted at Hidden Universes](https://youtu.be/lFlu60qs7_4?si=0r5vT2NEjHLiiXa_).
+
 ---
 class: inverse, center
 
