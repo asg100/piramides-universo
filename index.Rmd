@@ -405,7 +405,7 @@ knitr::include_graphics("transversal3_0.png")
 
 
 ```{r out.width = '150%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("suma_interiores.png")
+knitr::include_graphics("suma_interiores.PNG")
 ```
 Tomada de [Demostración suma de ángulos interiores de un triángulo](https://matematicalatex.blogspot.com/2017/09/demostracion-suma-de-angulos-interiores.html).
 
